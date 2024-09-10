@@ -1,0 +1,234 @@
+
+html {
+    scroll-behavior: smooth;
+} 
+.navbar-text-center {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.navbar-text-content {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+.navbar-text-content span {
+    display: inline-block;
+    margin: 0 5px;
+}
+.navbar.bg-body-tertiary.rounded{
+    background-color: royalblue; 
+    color: white; 
+}
+.navbar.bg-body-tertiary.rounded .nav-link {
+    color: white; 
+}
+.navbar.bg-body-tertiary.rounded .nav-link:hover {
+    color: black; 
+}
+.navbar.bg-body-tertiary.rounded .dropdown-menu {
+    background-color: beige; 
+}
+.navbar.bg-body-tertiary.rounded .dropdown-menu .dropdown-item {
+    color: black; 
+}
+.navbar.bg-body-tertiary.rounded .dropdown-menu .dropdown-item:hover {
+    background-color: beige;
+    color: grey; 
+}
+.navbar.bg-body-tertiary.rounded .form-control {
+    margin-top: 10px;
+    border-color: white; 
+    color: black; 
+    background-color: white; 
+}
+.jammu-kashmir {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+.word-1 { color: red; }
+.word-2 { color: green; }
+.word-3 { color: blue; }
+.word-4 { color: orange; }
+.word-5 { color: #333 }
+.word-6 { color: #333 }
+.word-7 { color: #333 }
+.navbar-brand img:first-child {
+    height: 150px;
+    width: auto; 
+}
+.navbar-brand img:last-child {
+    max-height: 100px;
+}
+#carouselExampleIndicators{
+    margin-top: 40px;
+}
+.text1{
+   margin-top: 50px;
+   text-align: center;
+   color: red;
+}
+.text2{
+    margin-top: 20px;
+    text-align: center;
+    color: #333;
+    font-size: 20px;
+}
+
+.text{
+   margin-top: 100px;
+   text-align: center;
+   font-weight: bold;
+   font-size: 50px;
+}
+
+.map-container {
+    text-align: center;
+    margin-top: 50px; 
+}
+.map-container img {
+    max-width: 80%; 
+    height: auto;   
+}
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 15px; 
+    margin-top: 40px; 
+}
+h5{
+    color: red;
+}
+.product-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    padding: 15px;
+    background-color: #f9f9f9;
+}
+.product-item img {
+  width: 100%; 
+  height: 200px; 
+  object-fit: cover; 
+}
+.product-item h5 {
+    margin-top: 10px;
+    font-size: 1.25rem;
+}
+.product-item p {
+    font-size: 1rem;
+    color: #666;
+}
+footer {
+    margin-top: 50px;
+    background-color: rgba(146, 49, 146, 0.76);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    background-color: rgba(143, 63, 143, 0.633);
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+@media (max-width: 1200px) {
+    .product-grid {
+        grid-template-columns: repeat(4, 1fr); 
+    }
+}
+
+@media (max-width: 992px) {
+    .product-grid {
+        grid-template-columns: repeat(3, 1fr); 
+    }
+
+    .navbar-brand img:first-child {
+        height: 120px; 
+    }
+
+    .navbar-brand img:last-child {
+        max-height: 80px;
+    }
+}
+
+@media (max-width: 768px) {
+    .product-grid {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+
+    .navbar-text-content {
+        font-size: 1.5rem; 
+    }
+
+    .text {
+        font-size: 40px; 
+    }
+
+    .footer-section {
+        width: 100%; 
+    }
+}
+
+@media (max-width: 576px) {
+    .product-grid {
+        grid-template-columns: 1fr; 
+    }
+
+    .navbar-text-content {
+        font-size: 1.25rem; 
+    }
+
+    .text {
+        font-size: 30px; 
+    }
+
+    .navbar-brand img:first-child {
+        height: 100px; 
+    }
+
+    .navbar-brand img:last-child {
+        max-height: 60px;
+    }
+}
