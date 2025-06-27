@@ -41,7 +41,20 @@ This project aims to:
 
 ## 📁 Project Structure
 
-<pre> ```text One-District-One-Product-J-K--main/ ├── index.html ├── styles.css ├── privacy.html ├── districts/ │ ├── anantnag/ │ ├── bandipore/ │ └── ... (other districts) ├── seller/ ├── images/ └── README.md ``` </pre>
+```text
+One-District-One-Product-J-K--main/
+├── index.html
+├── styles.css
+├── privacy.html
+├── districts/
+│   ├── anantnag/
+│   ├── bandipore/
+│   └── ... (other districts)
+├── seller/
+├── images/
+└── README.md
+```
+
 
 
 
