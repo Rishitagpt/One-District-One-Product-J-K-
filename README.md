@@ -46,12 +46,13 @@ One-District-One-Product-J-K--main/
 ├── styles.css
 ├── privacy.html
 ├── districts/
-│ ├── anantnag/
-│ ├── bandipore/
-│ └── ... (other districts)
+│   ├── anantnag/
+│   ├── bandipore/
+│   └── ... (other districts)
 ├── seller/
 ├── images/
 └── README.md
+
 
 
 ---
