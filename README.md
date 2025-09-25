@@ -14,6 +14,15 @@ This project aims to:
 
 ---
 
+## 📸 Project Screenshots
+
+<p align="center">
+  <img src="s1.png" alt="Screenshot 1" width="45%"/>
+  <img src="s2.png" alt="Screenshot 2" width="45%"/>
+</p>
+
+---
+
 ## 🚀 Features
 
 - ✅ **District-wise Product Pages**  
