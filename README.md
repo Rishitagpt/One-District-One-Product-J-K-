@@ -78,6 +78,6 @@ To view the project in your browser:
 3. Open `index.html` in your browser.
 
 ```bash
-git clone https://github.com/your-username/odop-jk.git
+git clone https://github.com/rishitagpt/odop-jk.git
 cd odop-jk
 open index.html
